@@ -2,7 +2,7 @@
 
     function encrypt_password($text) 
     {   global $Configs;
-     
+
         /*$key = $Configs["DATABASE"];
         if ($key == '')*/
             $key = "ims";     
@@ -20,7 +20,6 @@
         $password = substr( str_shuffle( $chars ), 0, $length );
         return $password;
     }
-
 
     function generate_access_token( $text, $key )
     {        
