@@ -1,6 +1,6 @@
 <?php
 
-    $mail_primary_sender = 'imp.service.55.55.55@gmail.com';
+    $mail_primary_sender = 'Nateetorn.Boonsup@gmail.com';
     $mail_primary_sender_name = 'Mail Service';
 
     function mail_ex($mail_to, $subject, $message)
